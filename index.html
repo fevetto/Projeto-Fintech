@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Fintech</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+
+    <!-- Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./Imagens/fintech.png" alt="Logo Fintech" height="80">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Funcionalidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#login-register">Login/Cadastro</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Galeria de Imagens -->
+    <section id="image-slider" class="section">
+        <div class="container">
+            <h2 class="text-center my-4">Galeria de Imagens</h2>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./Imagens/notebook.jpg" class="d-block w-100" alt="notebook e celular">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Imagens/pagamento.jpg" class="d-block w-100" alt="pagamento com cartão">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Imagens/cofrinho.jpg" class="d-block w-100" alt="guardando dinheiro no cofrinho">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Início -->
+    <section id="home" class="section">
+        <div class="container">
+            <h2 class="text-center my-4">Bem-vindo ao Projeto Fintech</h2>
+            <p class="text-center">Nosso propósito é incentivar pessoas a tomarem o controle de suas finanças pessoais e atingirem seus sonhos, seja economizando, investindo ou planejando melhor seus recursos.</p>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="about" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center my-4">Sobre nós</h2>
+            <p>Somos uma fintech dedicada a transformar a maneira como você gerencia seu dinheiro. Nossa ferramenta simples e poderosa para planejamento financeiro, controle de gastos e metas de economia estão todas em um só lugar.</p>
+            <p>Nossa missão é ajudá-lo a criar um futuro financeiro mais seguro e alcançar seus objetivos, de pequenos sonhos a grandes conquistas.</p>
+        </div>
+    </section>
+
+    <!-- Seção Funcionalidades -->
+    <section id="features" class="section">
+        <div class="container">
+            <h2 class="text-center my-4">Funcionalidades</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="feature-item bg-primary text-white p-3 text-center rounded">
+                        <img src="./Imagens/ativos.png" alt="Ícone Gestão" class="img-fluid mb-2" style="max-height: 50px;">
+                        <h3>Controle Financeiro</h3>
+                        <p>Visualize todos os seus rendimentos e despesas em um só lugar. Assim, você pode gerenciar seu dinheiro de forma mais eficaz e identificar áreas de melhoria.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-item bg-success text-white p-3 text-center rounded">
+                        <img src="./Imagens/lucro-financeiro.png" alt="Ícone Metas" class="img-fluid mb-2" style="max-height: 50px;">
+                        <h3>Metas Financeiras</h3>
+                        <p>Defina metas personalizadas para economizar ou investir com mais eficiência. Nós ajudamos você a acompanhar seu progresso e manter o foco em seus objetivos financeiros.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-item bg-warning text-white p-3 text-center rounded">
+                        <img src="./Imagens/liberdade.png" alt="Ícone Prêmios" class="img-fluid mb-2" style="max-height: 50px;">
+                        <h3>Prêmios por Economia</h3>
+                        <p>Receba incentivos e recompensas ao alcançar suas metas financeiras. Transforme a gestão financeira em uma experiência gratificante e motivadora.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-item bg-danger text-white p-3 text-center rounded">
+                        <img src="./Imagens/fluxo-de-caixa.png" alt="Ícone Entradas e Saídas" class="img-fluid mb-2" style="max-height: 50px;">
+                        <h3>Entradas e Saídas</h3>
+                        <p>Monitore detalhadamente cada movimentação de sua conta. Tenha um controle preciso sobre suas finanças e mantenha-se atualizado sobre todas as transações.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Login e Cadastro -->
+    <section id="login-register" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-box bg-light p-4 rounded">
+                        <h2 class="text-center">Login</h2>
+                        <form>
+                            <div class="mb-3">
+                                <label for="login-email" class="form-label">E-mail:</label>
+                                <input type="email" class="form-control" id="login-email" placeholder="Digite seu e-mail">
+                            </div>
+                            <div class="mb-3">
+                                <label for="login-password" class="form-label">Senha:</label>
+                                <input type="password" class="form-control" id="login-password" placeholder="Digite sua senha">
+                            </div>
+                            <button type="submit" class="btn btn-custom w-100">Entrar</button>
+                            <a href="#" class="d-block text-center mt-2">Esqueci minha senha</a>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-box bg-light p-4 rounded">
+                        <h2 class="text-center">Cadastre-se</h2>
+                        <form>
+                            <div class="mb-3">
+                                <label for="register-name" class="form-label">Nome:</label>
+                                <input type="text" class="form-control" id="register-name" placeholder="Digite seu nome completo">
+                            </div>
+                            <div class="mb-3">
+                                <label for="register-phone" class="form-label">Telefone:</label>
+                                <input type="tel" class="form-control" id="register-phone" placeholder="Digite seu telefone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="register-email" class="form-label">E-mail:</label>
+                                <input type="email" class="form-control" id="register-email" placeholder="Digite seu e-mail">
+                            </div>
+                            <div class="mb-3">
+                                <label for="register-password" class="form-label">Senha:</label>
+                                <input type="password" class="form-control" id="register-password" placeholder="Digite sua senha">
+                            </div>
+                            <button type="submit" class="btn btn-custom w-100">Cadastrar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
